@@ -32,4 +32,9 @@ public class WordCounter
             counts.put(word, counter + 1);
         }
     }
+      public void printWordCount() {
+        for (String clave : counts.keySet()) {
+            System.out.println(clave + " " + counts.get(clave));
+        }
+    }
 }
