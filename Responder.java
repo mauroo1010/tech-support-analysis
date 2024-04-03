@@ -143,4 +143,7 @@ public class Responder
         int index = randomGenerator.nextInt(defaultResponses.size());
         return defaultResponses.get(index);
     }
+     public String palabrasClave() {
+        return responseMap.keySet().toString();
+    }
 }
